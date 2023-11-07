@@ -201,6 +201,20 @@ section{
     grid-template-columns: repeat(2, 1fr);
     padding-top: 3.5rem;
     padding-bottom: 5rem;
+    .content {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .read-more-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        
+    }
     .right-about {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

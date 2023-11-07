@@ -8,3 +8,15 @@
         })
     });
    })();
+   function showMore() {
+    var moreText = document.getElementById("more");
+    var btnText = document.querySelector(".read-more-btn");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "block";
+        btnText.textContent = "Read Less";
+    } else {
+        moreText.style.display = "none";
+        btnText.textContent = "Read More";
+    }
+}
